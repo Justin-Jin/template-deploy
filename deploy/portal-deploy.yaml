@@ -6,7 +6,7 @@ metadata:
   labels:
     app: aes-portal-deployment
 spec:
-  replicas: 1
+  replicas: 3
   selector:
     matchLabels:
       app: aes-portal-deployment
