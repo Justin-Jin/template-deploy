@@ -2,7 +2,7 @@ kind: PodChaos
 apiVersion: chaos-mesh.org/v1alpha1
 metadata:
   namespace: default
-  name: test
+  name: test2
 spec:
   selector:
     namespaces:
