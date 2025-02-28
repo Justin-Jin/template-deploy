@@ -1,0 +1,11 @@
+kind: PodChaos
+apiVersion: chaos-mesh.org/v1alpha1
+metadata:
+  namespace: default
+  name: killpod222
+spec:
+  selector:
+    namespaces:
+      - default
+  mode: all
+  action: pod-kill
